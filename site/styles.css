@@ -40,10 +40,10 @@ h1 { margin:18px 0 0; font-size:clamp(29px,8vw,40px); line-height:1.15; letter-s
 .mystery-box.is-opening .ring-one { animation:ring-pop .8s .28s ease-out forwards; }
 .mystery-box.is-opening .ring-two { animation:ring-pop 1s .42s ease-out forwards; }
 .mystery-box.is-opening .spark { animation:spark-pop .9s calc(.3s + var(--i)*8ms) cubic-bezier(.15,.68,.25,1) forwards; }
-.result-view { position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding-top:22px; animation:result-in .7s cubic-bezier(.2,.85,.25,1) both; }
+.result-view { position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding-top:210px; animation:result-in .7s cubic-bezier(.2,.85,.25,1) both; }
 .result-label { margin:0; color:var(--gold-dark); font-size:18px; font-weight:850; }
-.result-view h1 { margin:10px 0 64px; color:#241c16; font-size:clamp(96px,32vw,148px); line-height:1; letter-spacing:-.08em; text-shadow:0 12px 34px rgba(201,149,46,.18); }
-.primary-button { width:100%; margin-top: 48px; }
+.result-view h1 { margin:10px 0 0; color:#241c16; font-size:clamp(96px,32vw,148px); line-height:1; letter-spacing:-.08em; text-shadow:0 12px 34px rgba(201,149,46,.18); }
+.primary-button { width:100%; margin-top: auto; }
 .confetti { position:absolute; inset:0; height:55%; pointer-events:none; }
 .confetti i { --angle:calc(var(--i)*15deg); position:absolute; left:50%; top:38%; width:7px; height:14px; border-radius:2px; background:hsl(calc(37 + var(--i)*2) 76% 55%); opacity:0; animation:confetti 1.35s calc(var(--i)*17ms) ease-out forwards; }
 .confetti i:nth-child(3n) { background:#fff0b7; }
