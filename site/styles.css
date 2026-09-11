@@ -334,7 +334,7 @@ h1 {
   text-align: center;
 
   /* 결과 전체 위치 */
-  padding-top: 210px;
+  padding-top: 120px;
 
   animation: result-in .7s cubic-bezier(.2, .85, .25, 1) both;
 }
